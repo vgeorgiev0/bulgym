@@ -16,6 +16,14 @@ module.exports = {
     },
     extend: {
       colors: {
+        "gray-20": "#F8F4EB",
+        "gray-50": "#EFE6E6",
+        "gray-100": "#DFCCCC",
+        "primary-100": "#C0DFA1",
+        "primary-300": "#9FC490",
+        "primary-500": "#82A3A1",
+        "secondary-400": "#F6AE2D",
+        "secondary-500": "#FFC132",
         current: "currentColor",
         transparent: "transparent",
         stroke: "#EEEEEE",

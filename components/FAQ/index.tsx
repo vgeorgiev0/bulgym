@@ -6,11 +6,12 @@ import FAQItem from "./FAQItem";
 import faqData from "./faqData";
 
 const FAQ = () => {
-  const [activeFaq, setActiveFaq] = useState(1);
+  const [activeFaq, setActiveFaq] = useState(-1);
 
   const handleFaqToggle = (id: number) => {
-    activeFaq === id ? setActiveFaq(0) : setActiveFaq(id);
+    activeFaq === id ? setActiveFaq(-1) : setActiveFaq(id);
   };
+
 
   return (
     <>

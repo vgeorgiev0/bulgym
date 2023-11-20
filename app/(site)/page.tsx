@@ -1,17 +1,8 @@
-import { Metadata } from "next";
-import Hero from "@/components/Hero";
-import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
 import About from "@/components/About";
-import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-// import Pricing from "@/components/Pricing";
-// import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
-// import Testimonial from "@/components/Testimonial";
+import Feature from "@/components/Features";
+import Hero from "@/components/Hero";
+import ManagementBoard from "@/components/ManagementBoard";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Българска Федерация по Гимнастика",
@@ -23,18 +14,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Blog />
-      <FeaturesTab />
-      <FAQ />
-      {/* <Brands /> */}
-      {/* <Feature /> */}
-      {/* <About /> */}
-      {/* <FunFact /> */}
-      {/* <Integration /> */}
-      {/* <CTA /> */}
-      {/* <Testimonial /> */}
-      {/* <Pricing />/ */}
-      {/* <Contact /> */}
+      <About />
+      <Feature />
+      <ManagementBoard />
     </main>
   );
 }

@@ -1,6 +1,6 @@
-import { FAQ } from "@/types/faq";
+import { Gen } from "@/types/faq";
 
-const faqData: FAQ[] = [
+const faqData: Gen[] = [
   {
     id: 1,
     quest: "Lorem ipsum dolor sit amet, consectetur",

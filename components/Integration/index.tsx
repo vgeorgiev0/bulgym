@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
+import Table from "../Table";
 
 const Integration = () => {
   return (

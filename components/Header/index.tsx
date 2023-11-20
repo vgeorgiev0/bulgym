@@ -29,10 +29,8 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
-        stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
-          : ""
+      className={`fixed left-0 top-0 z-99999 w-full py-7 transition-all duration-300 ${
+        stickyMenu ? "bg-white !py-4 shadow  dark:bg-black" : "bg-white"
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
@@ -127,7 +125,7 @@ const Header = () => {
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className={`flex cursor-pointer items-center justify-between gap-3 text-lg font-medium hover:text-blue-900`}
+                        className={`flex cursor-pointer items-center justify-between gap-3 text-lg font-medium hover:text-lime-900`}
                       >
                         {menuItem.title}
                         <span>
@@ -147,7 +145,7 @@ const Header = () => {
                         {menuItem.submenu.map((item, key) => (
                           <li
                             key={key}
-                            className={`text-lg font-medium hover:text-blue-900`}
+                            className={`text-lg font-medium hover:text-lime-900`}
                           >
                             <Link href={item.path || "#"}>{item.title}</Link>
                           </li>
@@ -160,8 +158,8 @@ const Header = () => {
                       className={`text-lg font-medium
                        ${
                          pathUrl === menuItem.path
-                           ? "text-red-700 hover:text-blue-900"
-                           : "hover:text-blue-900"
+                           ? "text-red-700 hover:text-lime-900"
+                           : "hover:text-lime-900"
                        }
                       `}
                     >
