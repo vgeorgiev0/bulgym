@@ -1,7 +1,13 @@
 import PdfViewer from "@/components/PDFViewer";
 import { allDocuments } from "@/constants/PdfFiles";
+import { Metadata } from "next";
 import Head from "next/head";
 import { notFound } from "next/navigation";
+
+export const metadata: Metadata = {
+  title: "Документи - Българска Федерация по Гимнастика",
+  description: "Нормативни документи - Българска Федерация по Гимнастика",
+};
 
 const PDFPage = ({ params }: { params: { pdfId: string } }) => {
   const currentDocument = allDocuments.find(
