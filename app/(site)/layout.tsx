@@ -6,6 +6,7 @@ import Lines from "@/components/Lines";
 import ScrollToTop from "@/components/ScrollToTop";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "../globals.css";
 
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Lines />
           <Header />
           {children}
+          <Analytics />
           <Footer />
           <ScrollToTop />
         </ThemeProvider>
