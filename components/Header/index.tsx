@@ -23,6 +23,7 @@ const Header = () => {
     }
   };
 
+  console.log({ dropdownToggler, navigationOpen });
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
@@ -124,7 +125,10 @@ const Header = () => {
                   {menuItem.submenu ? (
                     <>
                       <button
-                        onClick={() => setDropdownToggler(!dropdownToggler)}
+                        onClick={() => {
+                          setDropdownToggler(!dropdownToggler),
+                            setNavigationOpen(false);
+                        }}
                         className={`flex cursor-pointer items-center justify-between gap-3 text-lg font-medium hover:text-lime-900`}
                       >
                         {menuItem.title}
@@ -154,6 +158,10 @@ const Header = () => {
                     </>
                   ) : (
                     <Link
+                      onClick={() => {
+                        setDropdownToggler(!dropdownToggler),
+                          setNavigationOpen(false);
+                      }}
                       href={`${menuItem.path}`}
                       className={`text-lg font-medium
                        ${
