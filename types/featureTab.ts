@@ -1,8 +1,8 @@
+import { Document } from "./doc";
+
 export type FeatureTab = {
   id: string;
   title: string;
-  desc1: string;
-  desc2: string;
+  documents?: Document[];
   image: string;
-  imageDark: string;
 };

@@ -9,7 +9,7 @@ import {
   menHeader,
   womenHeader,
 } from "./ManagementBoardData";
-import BoardItem from "./BoardItem";
+import DropdownCard from "../Common/DropdownCard";
 
 const ManagementBoard = () => {
   const [activeBoard, setActiveBoard] = useState(0);
@@ -56,7 +56,7 @@ const ManagementBoard = () => {
             className="animate_right md:w-3/5 lg:w-1/2"
           >
             <div className="rounded-lg bg-white shadow-solid-8 dark:border dark:border-strokedark dark:bg-blacksection">
-              <BoardItem
+              <DropdownCard
                 boardData={{
                   id: 1,
                   activeBoard,
@@ -86,7 +86,7 @@ const ManagementBoard = () => {
             className="animate_right mt-2 md:w-3/5 lg:w-1/2"
           >
             <div className="rounded-lg bg-white shadow-solid-8 dark:border dark:border-strokedark dark:bg-blacksection">
-              <BoardItem
+              <DropdownCard
                 boardData={{
                   id: 2,
                   activeBoard,
@@ -117,7 +117,7 @@ const ManagementBoard = () => {
             className="animate_right mt-2 md:w-3/5 lg:w-1/2"
           >
             <div className="rounded-lg bg-white shadow-solid-8 dark:border dark:border-strokedark dark:bg-blacksection">
-              <BoardItem
+              <DropdownCard
                 boardData={{
                   id: 3,
                   activeBoard,

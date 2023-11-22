@@ -4,3 +4,9 @@ export type DOC = {
   slug: string;
   description: string;
 };
+
+export type Document = {
+  id: number;
+  url: string;
+  title: string;
+};

@@ -15,7 +15,6 @@ const PDFPage = ({ params }: { params: { pdfId: string } }) => {
   );
   !currentDocument && notFound();
 
-  console.log(currentDocument?.title);
   return (
     <>
       <Head>

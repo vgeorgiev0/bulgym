@@ -1,4 +1,4 @@
-type BoardData = {
+type DropdownCardData = {
   activeBoard: number;
   id: number;
   handleBoardToggle: (id: number) => void;
@@ -7,7 +7,7 @@ type BoardData = {
   headItems?: string[];
 };
 
-const BoardItem = ({ boardData }: { boardData: BoardData }) => {
+const DropdownCard = ({ boardData }: { boardData: DropdownCardData }) => {
   const { activeBoard, id, handleBoardToggle, title, items, headItems } =
     boardData;
 
@@ -80,4 +80,4 @@ const BoardItem = ({ boardData }: { boardData: BoardData }) => {
   );
 };
 
-export default BoardItem;
+export default DropdownCard;
