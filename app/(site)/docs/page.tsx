@@ -4,7 +4,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Документи - Българска Федерация по Гимнастика",
   description: "Нормативни документи - Българска Федерация по Гимнастика",
-  // other metadata
 };
 
 export default function DocsPage() {
@@ -14,7 +13,10 @@ export default function DocsPage() {
         <div className="container mx-auto">
           <FeaturesTab />
         </div>
-        <div className="container mx-auto my-10">{/* <PDFViewer /> */}</div>
+        <iframe
+          className="min-h-screen w-full"
+          src="https://sportenkalendar.bg/potrebitel/sportna-gimnastika"
+        />
       </section>
     </>
   );

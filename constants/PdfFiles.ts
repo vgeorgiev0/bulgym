@@ -31,31 +31,121 @@ export const regulatoryDocuments = [
   {id:21, url:`${baseUrl}RegulatoryDocuments/Устав - приет на ОС 17.01.2020.pdf`, title: 'Устав - приет на ОС 17.01.2020'},
 ]
 
-export const stateResults = [
-  {id:22, url:`${baseUrl}Results/State/Официален протокол ДП-паркур 2023pdf`, title: 'Официален протокол ДП-паркур 2023'},
-  {id:23, url:`${baseUrl}Results/State/Протокол - ДЛОП - 1-ви етап - Зона Запад - 22-23.04.2023 - София.pdf`, title: '2022 - ПРАВИЛНИК за категоризация на ГСК и за финансовото им подпомагане'},
-  {id:24, url:`${baseUrl}Results/State/Протокол - ДЛОП 1-ви етап - Зона Юг - 31.03-01.04.2023 - Пловдив.pdf`, title: 'Протокол - ДЛОП 1-ви етап - Зона Юг - 31.03-01.04.2023 - Пловдив'},
-  {id:25, url:`${baseUrl}Results/State/Протокол - ДЛОП за Купи Р. България за ДЮВ - 30.05-02.06.2023 - Варна.pdf`, title: 'Протокол - ДЛОП за Купи Р. България за ДЮВ - 30.05-02.06.2023 - Варна'},
-  {id:26, url:`${baseUrl}Results/State/Протокол - ДЛОП-1-ви етап - Зона Север - 25.03.2023 - Варна.pdf`, title: 'Протокол - ДЛОП-1-ви етап - Зона Север - 25.03.2023 - Варна'},
-  {id:27, url:`${baseUrl}Results/State/Протокол - ДЛОП-финал - 27.06-02.07.2023 - София.pdf`, title: 'Протокол - ДЛОП-финал - 27.06-02.07.2023 - София'},
-  {id:28, url:`${baseUrl}Results/State/Протокол - Турнир Й.Йовчев - за купа Дженерали - 18.03.2023 - София.pdf`, title: 'Протокол - Турнир Й.Йовчев - за купа Дженерали - 18.03.2023 - София'},
-  {id:29, url:`${baseUrl}Results/State/Протокол -ДЛОП за Купи Р.България - 17-18.03.2023 - София.pdf`, title: 'Протокол -ДЛОП за Купи Р.България - 17-18.03.2023 - София'},
-  {id:30, url:`${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2009 г. и преди нея) - индивидуално класиране.pdf`, title: 'Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2009 г. и преди нея) - индивидуално класиране'},
-  {id:31, url:`${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2010 г. и след нея) - индивидуално класиране.pdf`, title: 'Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2010 г. и след нея) - индивидуално класиране'},
-  {id:32, url:`${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши мл.в.) - индивидуално класиране.pdf`, title: 'Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши мл.в.) - индивидуално класиране'},
-  {id:33, url:`${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши ст.в.) - индивидуално класиране .pdf`, title: 'Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши ст.в.) - индивидуално класиране '},
-
-]
+export const nationalResults = [
+  {
+    id: 22,
+    url: `${baseUrl}Results/State/Официален протокол ДП-паркур 2023pdf`,
+    title: "Официален протокол ДП-паркур 2023",
+  },
+  {
+    id: 23,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП - 1-ви етап - Зона Запад - 22-23.04.2023 - София.pdf`,
+    title:
+      "2022 - ПРАВИЛНИК за категоризация на ГСК и за финансовото им подпомагане",
+  },
+  {
+    id: 24,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП 1-ви етап - Зона Юг - 31.03-01.04.2023 - Пловдив.pdf`,
+    title: "Протокол - ДЛОП 1-ви етап - Зона Юг - 31.03-01.04.2023 - Пловдив",
+  },
+  {
+    id: 25,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП за Купи Р. България за ДЮВ - 30.05-02.06.2023 - Варна.pdf`,
+    title:
+      "Протокол - ДЛОП за Купи Р. България за ДЮВ - 30.05-02.06.2023 - Варна",
+  },
+  {
+    id: 26,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП-1-ви етап - Зона Север - 25.03.2023 - Варна.pdf`,
+    title: "Протокол - ДЛОП-1-ви етап - Зона Север - 25.03.2023 - Варна",
+  },
+  {
+    id: 27,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП-финал - 27.06-02.07.2023 - София.pdf`,
+    title: "Протокол - ДЛОП-финал - 27.06-02.07.2023 - София",
+  },
+  {
+    id: 28,
+    url: `${baseUrl}Results/State/Протокол - Турнир Й.Йовчев - за купа Дженерали - 18.03.2023 - София.pdf`,
+    title:
+      "Протокол - Турнир Й.Йовчев - за купа Дженерали - 18.03.2023 - София",
+  },
+  {
+    id: 29,
+    url: `${baseUrl}Results/State/Протокол -ДЛОП за Купи Р.България - 17-18.03.2023 - София.pdf`,
+    title: "Протокол -ДЛОП за Купи Р.България - 17-18.03.2023 - София",
+  },
+  {
+    id: 30,
+    url: `${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2009 г. и преди нея) - индивидуално класиране.pdf`,
+    title:
+      "Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2009 г. и преди нея) - индивидуално класиране",
+  },
+  {
+    id: 31,
+    url: `${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2010 г. и след нея) - индивидуално класиране.pdf`,
+    title:
+      "Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Женски пол (2010 г. и след нея) - индивидуално класиране",
+  },
+  {
+    id: 32,
+    url: `${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши мл.в.) - индивидуално класиране.pdf`,
+    title:
+      "Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши мл.в.) - индивидуално класиране",
+  },
+  {
+    id: 33,
+    url: `${baseUrl}Results/State/Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши ст.в.) - индивидуално класиране .pdf`,
+    title:
+      "Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши ст.в.) - индивидуално класиране ",
+  },
+];
 
 export const internationalResults = [
-  {id:34, url:`${baseUrl}Results/International/6th_FIG_AG_WCC_Delegation_ResultsBook.pdf`, title: '6th_FIG_AG_WCC_Delegation_ResultsBook.pdf'},
-  {id:35, url:`${baseUrl}Results/International/2023_WCH_Antwerp_Delegation_Book.pdf`, title: '2023_WCH_Antwerp_Delegation_Book'},
-  {id:36, url:`${baseUrl}Results/International/balkan_2023_agch_allresults.pdf`, title: 'balkan_2023_agch_allresults'},
-  {id:37, url:`${baseUrl}Results/International/European Youth Olympic Festival 2023 Media.pdf`, title: 'European Youth Olympic Festival 2023 Media'},
-  {id:38, url:`${baseUrl}Results/International/JWCHP_Antalya_Delegation_Results_Book.pdf`, title: 'JWCHP_Antalya_Delegation_Results_Book'},
-  {id:39, url:`${baseUrl}Results/International/Results book - 10TH EUROPEAN MEN'S AND WOMEN'S ARTISTIC GYMNASTICS CHAMPIONSHIPS Detailed.pdf`, title: `Results book - 10TH EUROPEAN MEN'S AND WOMEN'S ARTISTIC GYMNASTICS CHAMPIONSHIPS Detailed`},
-  {id:40, url:`${baseUrl}Results/International/Results book - WChCup - Hungary 2023.pdf`, title: 'Results book - WChCup - Hungary 2023'},
-]
+  {
+    id: 34,
+    url: `${baseUrl}Results/International/6th_FIG_AG_WCC_Delegation_ResultsBook.pdf`,
+    title: "6th_FIG_AG_WCC_Delegation_ResultsBook.pdf",
+  },
+  {
+    id: 35,
+    url: `${baseUrl}Results/International/2023_WCH_Antwerp_Delegation_Book.pdf`,
+    title: "2023_WCH_Antwerp_Delegation_Book",
+  },
+  {
+    id: 36,
+    url: `${baseUrl}Results/International/balkan_2023_agch_allresults.pdf`,
+    title: "balkan_2023_agch_allresults",
+  },
+  {
+    id: 37,
+    url: `${baseUrl}Results/International/European Youth Olympic Festival 2023 Media.pdf`,
+    title: "European Youth Olympic Festival 2023 Media",
+  },
+  {
+    id: 38,
+    url: `${baseUrl}Results/International/JWCHP_Antalya_Delegation_Results_Book.pdf`,
+    title: "JWCHP_Antalya_Delegation_Results_Book",
+  },
+  {
+    id: 39,
+    url: `${baseUrl}Results/International/Results book - 10TH EUROPEAN MEN'S AND WOMEN'S ARTISTIC GYMNASTICS CHAMPIONSHIPS Detailed.pdf`,
+    title: `Results book - 10TH EUROPEAN MEN'S AND WOMEN'S ARTISTIC GYMNASTICS CHAMPIONSHIPS Detailed`,
+  },
+  {
+    id: 40,
+    url: `${baseUrl}Results/International/Results book - WChCup - Hungary 2023.pdf`,
+    title: "Results book - WChCup - Hungary 2023",
+  },
+];
 
-export const allDocuments = [...annualReports, ...activity, ...regulatoryDocuments, ...stateResults, ...internationalResults]
+export const allResults = { nationalResults, internationalResults };
+
+export const allDocuments = [
+  ...annualReports,
+  ...activity,
+  ...regulatoryDocuments,
+  ...nationalResults,
+  ...internationalResults,
+];
 

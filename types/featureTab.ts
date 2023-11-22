@@ -1,8 +1,13 @@
-import { Document } from "./doc";
+export enum FeatureTabEnum {
+  SINGLE = "single",
+  MULTIPLE = "multiple",
+}
 
 export type FeatureTab = {
   id: string;
   title: string;
-  documents?: Document[];
+  documents?: any;
+  multipleDocuments?: boolean;
   image: string;
+  type: FeatureTabEnum;
 };
