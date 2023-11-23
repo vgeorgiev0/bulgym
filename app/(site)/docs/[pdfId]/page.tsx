@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Документи - Българска Федерация по Гимнастика",
-  description: "Нормативни документи - Българска Федерация по Гимнастика",
 };
 
 const PDFPage = ({ params }: { params: { pdfId: string } }) => {
@@ -21,7 +20,7 @@ const PDFPage = ({ params }: { params: { pdfId: string } }) => {
         <title>{currentDocument?.title.substring(0, 10)}</title>
       </Head>
       <main className="my-46">
-        <header className="mb-10 flex items-center justify-center text-xl">
+        <header className="mb-10 flex items-center justify-center text-lg md:text-xl">
           <h1>
             {currentDocument?.title.substring(0, 34)}
             {currentDocument
