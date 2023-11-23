@@ -22,7 +22,12 @@ const PDFPage = ({ params }: { params: { pdfId: string } }) => {
       </Head>
       <main className="my-46">
         <header className="mb-10 flex items-center justify-center text-xl">
-          <h1>{currentDocument?.title}</h1>
+          <h1>
+            {currentDocument?.title.substring(0, 34)}
+            {currentDocument
+              ? currentDocument?.title?.length > 34 && "..."
+              : ""}
+          </h1>
         </header>
 
         <section className="mx-3 flex items-center justify-center md:mx-10 xl:mx-40">
