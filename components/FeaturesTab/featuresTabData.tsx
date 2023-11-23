@@ -2,39 +2,44 @@ import {
   activity,
   allResults,
   annualReports,
+  internationalResults,
+  nationalResults,
   regulatoryDocuments,
 } from "@/constants/PdfFiles";
-import { FeatureTab, FeatureTabEnum } from "@/types/featureTab";
+import { FeatureTab } from "@/types/featureTab";
 
-const featuresTabData: FeatureTab[] = [
+export const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
     title: "Нормативни документи",
     documents: regulatoryDocuments,
     image: "/images/other/image-1.jpg",
-    type: FeatureTabEnum.SINGLE,
   },
   {
     id: "tabTwo",
     title: "Дейност",
     documents: activity,
     image: "/images/other/image-2.jpg",
-    type: FeatureTabEnum.SINGLE,
   },
   {
     id: "tabThree",
     title: "Годишни отчети и бюджети",
     documents: annualReports,
     image: "/images/other/image-4.jpg",
-    type: FeatureTabEnum.SINGLE,
-  },
-  {
-    id: "tabFour",
-    title: "Резултати от състезания",
-    type: FeatureTabEnum.MULTIPLE,
-    documents: allResults,
-    image: "/images/other/image-3.jpg",
   },
 ];
 
-export default featuresTabData;
+export const resultsTabData: FeatureTab[] = [
+  {
+    id: "nationalResults",
+    title: "Национални състезания",
+    documents: nationalResults,
+    image: "/images/results/results-1.jpg",
+  },
+  {
+    id: "internationalResults",
+    title: "Международни състезания",
+    documents: internationalResults,
+    image: "/images/results/results-2.jpg",
+  },
+];

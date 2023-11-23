@@ -23,7 +23,6 @@ const Header = () => {
     }
   };
 
-  console.log({ dropdownToggler, navigationOpen });
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
