@@ -36,7 +36,7 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="mr-20 flex w-full items-center justify-between xl:w-1/4">
-          <a href="/" className="flex flex-1 ">
+          <a href="/">
             <Image
               src="/images/logo/Picture1.png"
               alt="logo"
@@ -45,28 +45,22 @@ const Header = () => {
               className="min-w-[40px] max-w-[50px] flex-1"
             />
           </a>
-          <a
-            href="https://www.europeangymnastics.com/"
-            className="flex flex-1 "
-          >
+          <a href="https://www.europeangymnastics.com/">
             <Image
               src="/images/logo/Picture2.png"
               alt="logo"
               width={1000}
               height={1000}
-              className="min-w-[40px] max-w-[50px] flex-1"
+              className="min-w-[40px] max-w-[50px]"
             />
           </a>
-          <a
-            href="https://www.gymnastics.sport/site/"
-            className="bg-blue flex flex-1"
-          >
+          <a href="https://www.gymnastics.sport/site/">
             <Image
               src="/images/logo/Picture3.png"
               alt="logo"
               width={1000}
               height={1000}
-              className="min-w-[40px] max-w-[70px] flex-1"
+              className="min-w-[40px] max-w-[70px] "
             />
           </a>
 

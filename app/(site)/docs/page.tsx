@@ -13,10 +13,6 @@ export default function DocsPage() {
         <div className="container mx-auto">
           <FeaturesTab />
         </div>
-        <iframe
-          className="min-h-screen w-full"
-          src="https://sportenkalendar.bg/potrebitel/sportna-gimnastika"
-        />
       </section>
     </>
   );
