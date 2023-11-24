@@ -104,14 +104,14 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full rounded-lg  p-7.5  md:w-1/3 xl:p-15"
+              className="animate_top rounded-lgp-7.5 w-full "
             >
               <Image
-                src="/images/logo/Picture1.png"
-                alt="logo"
-                className="aspect-auto"
-                width={1024}
-                height={1024}
+                src="/images/contact/contact.jpg"
+                alt="МИНИСТЕРСТВО НА МЛАДЕЖТА И СПОРТА"
+                className="aspect-video rounded-xl"
+                width={2048}
+                height={2048}
               />
             </motion.div>
           </div>
