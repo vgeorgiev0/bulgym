@@ -4,7 +4,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["localhost", "img.freepik.com", "veterinaire-tour-hassan.com"],
     remotePatterns: [
       {
         protocol: "https",

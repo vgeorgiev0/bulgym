@@ -1,15 +1,8 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
 import ImageSlider from "../ImageSlider";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   const heroImages: string[] = [
     "/images/hero/hero-1.jpg",
     "/images/hero/hero-2.jpg",
