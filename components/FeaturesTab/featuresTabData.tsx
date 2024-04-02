@@ -23,7 +23,7 @@ export const featuresTabData: FeatureTab[] = [
   },
   {
     id: "tabThree",
-    title: "Годишни отчети и бюджети",
+    title: "Отчети и бюджети",
     documents: annualReports,
     image: "/images/other/image-4.jpg",
   },

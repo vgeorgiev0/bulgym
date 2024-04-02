@@ -86,7 +86,7 @@ const FeaturesTab = () => {
             >
               <div className="py-2 md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-lime-950 dark:text-white xl:text-regular">
-                  Годишни отчети и бюджети
+                  Отчети и бюджети
                 </button>
               </div>
             </div>
