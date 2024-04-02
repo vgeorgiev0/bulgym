@@ -26,7 +26,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             alt={title}
             width={1024}
             height={1024}
-            className="dark:hidden"
+            // className="dark:hidden"
           />
         </div>
       </div>

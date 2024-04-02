@@ -64,7 +64,7 @@ const About = () => {
               <Image
                 src="/images/other/image-2.jpg"
                 alt="About"
-                className="dark:hidden"
+                // className="dark:hidden"
                 width={1024}
                 height={1024}
               />
@@ -166,7 +166,7 @@ const About = () => {
               <Image
                 src="/images/other/image-3.jpg"
                 alt="About"
-                className="dark:hidden"
+                // className="dark:hidden"
                 width={1024}
                 height={1024}
               />
