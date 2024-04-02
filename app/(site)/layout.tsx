@@ -8,6 +8,7 @@ import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "../globals.css";
+import { Metadata } from "next";
 
 // export default function Head() {
 //   return (
@@ -55,6 +56,7 @@ export default function RootLayout({
       <body className={`dark:bg-black ${inter.className} bg-gray-20`}>
         <ThemeProvider
           enableSystem={false}
+          forcedTheme="light"
           attribute="class"
           defaultTheme="light"
         >
