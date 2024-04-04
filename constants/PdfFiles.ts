@@ -197,6 +197,21 @@ export const nationalResults = [
     title:
       "Турнир Й. Йовчев - за купа Дженерали-04.11.2023 - Мъжки пол (юноши ст.в.) - индивидуално класиране ",
   },
+  {
+    id: 101,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП 1-ви етап -  Зона Запад - 30-31.03.2024 - София.pdf`,
+    title: "Протокол - ДЛОП 1-ви етап -  Зона Запад - 30-31.03.2024 - София",
+  },
+  {
+    id: 102,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП 1-ви етап -  Зона Север - 30.03.2024 - Варна.pdf`,
+    title: "Протокол - ДЛОП 1-ви етап -  Зона Север - 30.03.2024 - Варна",
+  },
+  {
+    id: 103,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП за Купи Р.България - 22-23.03.2024 - Благоевград.pdf`,
+    title: "Протокол - ДЛОП за Купи Р.България - 22-23.03.2024 - Благоевград",
+  },
 ];
 
 // Международни състезания
@@ -235,6 +250,21 @@ export const internationalResults = [
     id: 40,
     url: `${baseUrl}Results/International/Results book - WChCup - Hungary 2023.pdf`,
     title: "Results book - WChCup - Hungary 2023",
+  },
+  {
+    id: 104,
+    url: `${baseUrl}Results/International/FIG Artistic Gymnastics Apparatus World Cup AGF Trophy Media.pdf`,
+    title: "Световна купа - 07-10.03.2024 - Баку, Азербайджан",
+  },
+  {
+    id: 105,
+    url: `${baseUrl}Results/International/Media Cairo World Cup 2024.pdf`,
+    title: "Световна купа - 15-18.02.2024 - Кайро, Египет",
+  },
+  {
+    id: 106,
+    url: `${baseUrl}Results/International/Media_book.pdf`,
+    title: "Световна купа - 22-25.02.2024 - Котбус, Германия",
   },
 ];
 
