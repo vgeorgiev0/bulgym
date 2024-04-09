@@ -212,6 +212,11 @@ export const nationalResults = [
     url: `${baseUrl}Results/State/Протокол - ДЛОП за Купи Р.България - 22-23.03.2024 - Благоевград.pdf`,
     title: "Протокол - ДЛОП за Купи Р.България - 22-23.03.2024 - Благоевград",
   },
+  {
+    id: 107,
+    url: `${baseUrl}Results/State/Протокол - ДЛОП 1-ви етап -  Зона Юг - 06-07.04.2024 - Пловдив.pdf`,
+    title: "Протокол - ДЛОП 1-ви етап -  Зона Юг - 06-07.04.2024 - Пловдив",
+  },
 ];
 
 // Международни състезания
@@ -265,6 +270,11 @@ export const internationalResults = [
     id: 106,
     url: `${baseUrl}Results/International/Media_book.pdf`,
     title: "Световна купа - 22-25.02.2024 - Котбус, Германия",
+  },
+  {
+    id: 108,
+    url: `${baseUrl}Results/International/Results book (Delegation).pdf`,
+    title: "Световна купа - 04-07.04.2024 - Осиек, Хърватия",
   },
 ];
 
