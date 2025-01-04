@@ -286,6 +286,28 @@ export const internationalResults = [
     url: `${baseUrl}Results/International/Results book (Delegation).pdf`,
     title: "Световна купа - 04-07.04.2024 - Осиек, Хърватия",
   },
+  {
+    id: 111,
+    url: `${baseUrl}Results/International/Results Book-Doha.pdf`,
+    title: "Световна купа - 17-20.04.2024 - Доха, Катар",
+  },
+  {
+    id: 112,
+    url: `${baseUrl}Results/International/35TH EUROPEAN WOMEN’S ARTISTIC GYMNASTICS CHAMPIONSHIPS Media.pdf`,
+    title:
+      "Европейско първенство за жени/девойки - 02-05.05.2024 - Римини, Италия",
+  },
+  {
+    id: 113,
+    url: `${baseUrl}Results/International/36TH EUROPEAN MEN’S ARTISTIC GYMNASTICS CHAMPIONSHIPS Media.pdf`,
+    title:
+      "Европейско първенство за мъже/юноши - 24-28.04.2024 - Римини, Италия",
+  },
+  {
+    id: 114,
+    url: `${baseUrl}Results/International/2024 FIG ART World Challenge Cup Varna (BUL) - Media Results Book.pdf`,
+    title: "Световна купа - 23-26.05.2024 - Варна, България",
+  },
 ];
 
 export const allResults = { nationalResults, internationalResults };
