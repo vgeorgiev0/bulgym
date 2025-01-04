@@ -1,15 +1,13 @@
 {
-  "name": "solid-nextjs",
-  "version": "0.2.0",
+  "name": "bulgym",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.3.2",
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "@types/bcrypt": "^5.0.1",
@@ -21,7 +19,7 @@
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
     "framer-motion": "^10.12.16",
-    "next": "^14.0.2",
+    "next": "^14.2.22",
     "next-themes": "^0.2.1",
     "pdfjs-dist": "3.10.111",
     "postcss": "^8.4.31",
