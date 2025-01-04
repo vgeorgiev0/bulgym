@@ -308,6 +308,31 @@ export const internationalResults = [
     url: `${baseUrl}Results/International/2024 FIG ART World Challenge Cup Varna (BUL) - Media Results Book.pdf`,
     title: "Световна купа - 23-26.05.2024 - Варна, България",
   },
+  {
+    id: 117,
+    url: `${baseUrl}Results/International/GAR_ResultBook_delegation.pdf`,
+    title: "Летни олимпийски игри - 2024 - Париж, Франция",
+  },
+  {
+    id: 118,
+    url: `${baseUrl}Results/International/2024_ParkourWorldCup_DelegationsBook_Compressed.pdf`,
+    title: "Световна купа по паркур - 13-15.09.2024 -Коимбра, Португалия",
+  },
+  {
+    id: 115,
+    url: `${baseUrl}Results/International/Results book_BG_MAG_WAG_Sofia_2024.pdf`,
+    title: "Балканско първенство - 19-21.09.2024 - София, България",
+  },
+  {
+    id: 116,
+    url: `${baseUrl}Results/International/Results book (Media).pdf`,
+    title: "Световна купа - 04-06.10.2024 - Сомбатхей, Унгария",
+  },
+  {
+    id: 119,
+    url: `${baseUrl}Results/International/Parkour_WCHP_Senior_Delegation_Book.pdf`,
+    title: "Световно първенство по паркур - 15-17.11.2024 - Китакюшу, Япония",
+  },
 ];
 
 export const allResults = { nationalResults, internationalResults };
