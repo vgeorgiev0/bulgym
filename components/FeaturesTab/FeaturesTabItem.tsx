@@ -6,9 +6,9 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
   const { title, image, documents } = featureTab;
   return (
     <>
-      <div className="flex items-center gap-8 lg:gap-19">
+      <div className="flex items-start justify-center gap-8 lg:gap-19">
         <div className="md:w-1/2">
-          <h2 className="mb-7 text-3xl font-bold text-lime-900 dark:text-white xl:text-sectiontitle2">
+          <h2 className="mb-10 text-start text-3xl font-bold text-lime-900 dark:text-white xl:text-4xl">
             {title}
           </h2>
 
@@ -20,7 +20,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             />
           ))}
         </div>
-        <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
+        <div className="relative mx-auto mt-20 hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
           <Image
             src={image}
             alt={title}
