@@ -9,10 +9,7 @@ const PdfViewer = ({ url }) => {
   return (
     <div className="h-screen w-screen">
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.10.111/build/pdf.worker.min.js">
-        <Viewer
-          fileUrl={url}
-          plugins={[defaultLayoutPluginInstance]}
-        />
+        <Viewer fileUrl={url} plugins={[defaultLayoutPluginInstance]} />
       </Worker>
     </div>
   );
