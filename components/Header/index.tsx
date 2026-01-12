@@ -28,11 +28,11 @@ const Header = () => {
   return (
     <header
       className={`fixed left-0 top-0 z-99999 w-full py-7 transition-all duration-300 ${
-        stickyMenu ? "bg-white !py-4 shadow  dark:bg-black" : "bg-white"
+        stickyMenu ? "bg-white !py-4 shadow dark:bg-black" : "bg-white"
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="mr-20 flex w-full items-center justify-between xl:w-1/4">
+        <div className="mr-20 flex w-full items-center justify-between gap-4 xl:w-1/4">
           <a href="/">
             <Image
               src="/images/logo/Picture1.png"
@@ -48,16 +48,16 @@ const Header = () => {
               alt="logo"
               width={1000}
               height={1000}
-              className="min-w-[40px] max-w-[50px]"
+              className="min-w-[60px] max-w-[70px]"
             />
           </a>
           <a href="https://www.gymnastics.sport/site/">
             <Image
-              src="/images/logo/Picture3.png"
+              src="/images/logo/World_Gymnastics.svg"
               alt="logo"
               width={1000}
               height={1000}
-              className="min-w-[40px] max-w-[70px] "
+              className="min-w-[60px] max-w-[220px]"
             />
           </a>
 
@@ -117,8 +117,8 @@ const Header = () => {
                     <>
                       <button
                         onClick={() => {
-                          setDropdownToggler(!dropdownToggler),
-                            setNavigationOpen(false);
+                          (setDropdownToggler(!dropdownToggler),
+                            setNavigationOpen(false));
                         }}
                         className={`flex cursor-pointer items-center justify-between gap-3 text-lg font-medium hover:text-lime-900`}
                       >
@@ -150,17 +150,15 @@ const Header = () => {
                   ) : (
                     <Link
                       onClick={() => {
-                        setDropdownToggler(!dropdownToggler),
-                          setNavigationOpen(false);
+                        (setDropdownToggler(!dropdownToggler),
+                          setNavigationOpen(false));
                       }}
                       href={`${menuItem.path}`}
-                      className={`text-lg font-medium
-                       ${
-                         pathUrl === menuItem.path
-                           ? "text-red-700 hover:text-lime-900"
-                           : "hover:text-lime-900"
-                       }
-                      `}
+                      className={`text-lg font-medium ${
+                        pathUrl === menuItem.path
+                          ? "text-red-700 hover:text-lime-900"
+                          : "hover:text-lime-900"
+                      } `}
                     >
                       {menuItem.title}
                     </Link>
